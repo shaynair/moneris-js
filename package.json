@@ -1,0 +1,38 @@
+{
+  "name": "moneris",
+  "version": "1.0.0",
+  "description": "A wrapper for Moneris API.",
+  "main": "index.js",
+  "scripts": {
+    "check-deps": "npm outdated",
+    "lint": "standard",
+    "test": "blue-tape ./tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaynair/moneris-js.git"
+  },
+  "keywords": [
+    "moneris",
+    "payment",
+    "api"
+  ],
+  "author": "Akshay Nair <hello@akshaynair.com> (https://www.akshaynair.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaynair/moneris-js/issues"
+  },
+  "homepage": "https://github.com/shaynair/moneris-js#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "blue-tape": "^1.0.0",
+    "debug": "^2.3.3",
+    "standard": "^8.6.0",
+    "tape": "^4.6.3"
+  }
+}

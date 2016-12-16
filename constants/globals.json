@@ -1,0 +1,16 @@
+{
+    "PROTOCOL": "https",
+    "PORT": 443,
+
+    "HOST": "www3.moneris.com",
+    "TEST_HOST": "esqa.moneris.com",
+    "US_HOST": "esplus.moneris.com",
+    "US_TEST_HOST": "esplusqa.moneris.com",
+    "FILE": "/gateway2/servlet/MpgRequest",
+    "US_FILE": "/gateway_us/servlet/MpgRequest",
+    "MPI_FILE": "/mpi/servlet/MpiServlet",
+    "US_MPI_FILE": "/mpi/servlet/MpiServlet",
+
+    "API_VERSION": "PHP NA - 1.0.5",
+    "CLIENT_TIMEOUT": 30
+}
