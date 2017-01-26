@@ -13,7 +13,10 @@ const globals = require('./constants/globals.json')
 const xmlBuilder = new xml.Builder()
 xmlBuilder.options.rootName = 'request'
 
-module.exports = function send (credentials, req, extended = null) {
+module.exports = function send (credentials, req, extended) {
+  if(extended === undefined) {
+    extended = null;
+  }
   if (!credentials || !req || !req.type || !credentials.store_id || !credentials.api_token) {
     return Promise.reject(new TypeError('Requires country_code, store_id, api_token'))
   }
